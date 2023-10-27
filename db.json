@@ -11,6 +11,12 @@
       "email": "omair@email.com",
       "password": "ab@123",
       "id": 2
+    },
+    {
+      "name": "zaki",
+      "password": "ab@123",
+      "email": "z@email.com",
+      "id": 3
     }
   ]
 }
