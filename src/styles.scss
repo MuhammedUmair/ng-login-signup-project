@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.common-form {
+  text-align: center;
+  display: flex;
+  margin-inline: auto;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid rgb(34, 161, 150);
+  color: rgb(34, 161, 150);
+}
+
+.form-button {
+  height: 35px;
+  border: 1px solid rgb(34, 161, 150);
+  cursor: pointer;
+  background: rgb(34, 161, 150);
+  color:#fff;
+}

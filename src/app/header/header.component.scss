@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    color: rgb(34, 161, 150);
+    margin: 0;
+    font-size: 40px;
+  }
+  ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      padding-inline: 1rem;
+      a {
+        text-decoration: none;
+        color: rgb(34, 161, 150);
+        &:hover {
+          color: rgb(161, 36, 34);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .nav-search {
+      border: 1px solid rgb(34, 161, 150);
+      display: flex;
+      flex: 1;
+      margin-inline: 6%;
+      border-radius: .5rem;
+      padding: 0.25rem;
+    input {
+      flex: 1;
+      border: 0 solid rgb(34, 161, 150);
+      height: 30px;
+      &:focus-visible,
+      &:hover {
+        border: 0 solid rgb(34, 161, 150);
+        outline: 0;
+      }
+    }
+
+    button {
+      border: 1px solid rgb(34, 161, 150);
+      border: 0px;
+      padding-inline: 1rem;
+      border-radius: .5rem;
+    }
+  }
+}
